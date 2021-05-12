@@ -42,7 +42,7 @@
 
 
     <div class="about-bg">
-      <img :src="$staticUrl + banners[1].url" >
+      <img :src="$staticUrl + banners[0].url" >
       <div class="bg"></div>
       <div class="title">
         <h2>关于我</h2>

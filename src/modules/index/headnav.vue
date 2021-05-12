@@ -49,7 +49,7 @@
       <span></span>
       <span></span>
       <div class="mobliNav-main" slot="content">
-        <img :src="$staticUrl + banners[4].url" class="nav-bg">
+        <img :src="$staticUrl + banners[0].url" class="nav-bg">
         <li v-for="(item, index) in nav" :key="index" :class="{active:$route.path==item.url}">
           <Icon :type="item.icon" />
           <a @click="goRouter(item.url)">{{item.name}}</a>
@@ -138,10 +138,10 @@ export default {
     changeMenu(item) {
       if (item == 'changePasswd') {
         this.$router.push('/password')
-      } 
+      }
       if (item == 'person') {
         this.$router.push('/person')
-      } 
+      }
       if (item == 'admin') {
         // window.href = "/manage.html/#/articlelist"
         // let routeData = this.$router.resolve({ path: '/manage.html/#/articlelist'});
@@ -237,7 +237,7 @@ export default {
   div
     display flex
     align-items center
-    a 
+    a
       color #fff
   .left li
     padding 1px 15px
@@ -247,7 +247,7 @@ export default {
     border-radius: 3px;
   .left li a:hover
     border-bottom: 1px solid;
-    // text-decoration 
+    // text-decoration
 
 .register
   margin 0 10px
@@ -312,12 +312,12 @@ export default {
     border-radius 50%
   .ivu-dropdown-item
     font-size 14px !important
-    i 
+    i
       margin-right 10px
 
 
 @media screen and (max-width: 750px)
-  .header 
+  .header
     .footer-bg, .menu
       display none
   .nav-bg, .nav-content

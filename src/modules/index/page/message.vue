@@ -1,7 +1,7 @@
 <template>
   <div class="higtlight">
     <div class="about-bg">
-      <img :src="$staticUrl + banners[3].url" class="bg-img">
+      <img :src="$staticUrl + banners[0].url" class="bg-img">
       <div class="bg"></div>
       <p class="mgs-title">Say Hello~</p>
       <!-- 评论框 -->

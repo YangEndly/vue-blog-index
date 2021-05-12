@@ -15,7 +15,7 @@ service.interceptors.request.use(
   config => {
     if (config.url == 'apis/authentication/form') {
       config.headers['Content-Type'] = 'application/x-www-form-urlencoded'
-      config.headers['deviceId'] = '9001'
+      config.headers['deviceId'] = '9000'
     } else {
       config.headers['Content-Type'] = 'application/json;charset=utf-8'
       // let Authorization = "bearer " + getToken().access_token;

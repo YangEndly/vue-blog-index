@@ -1,7 +1,7 @@
 <template>
   <div >
     <div class="banner">
-      <img :src="$staticUrl + banners[5].url" alt="">
+      <img :src="$staticUrl + banners[0].url" alt="">
       <div class="bg"></div>
       
       <div class="text-box">
